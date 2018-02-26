@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+
+    <!-- Video -->
+    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+    <!-- Video IE8 -->
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <!-- Bx Slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-sm-between">
+                    <div class="logo">
+                        <a href="">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <ul class="nav align-items-center">
+                            <li>
+                                <a>Home</a>
+                            </li>
+                            <li>
+                                <a>service</a>
+                            </li>
+                            <li>
+                                <a>portfolio</a>
+                            </li>
+                            <li>
+                                <a>about us</a>
+                            </li>
+                            <li>
+                                <a>contact</a>
+                            </li>
+                        </ul>
+                        <div class="menu-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div id="header-slider" class="carousel slide" data-ride="carousel">
+                <!-- The slideshow -->
+                <ul class="carousel-inner" role="listbox">
+                    <li class="carousel-item active">
+                        <h3>WE THINK CREATIVE BE CREATIVE</h3>
+                        <p>LIKE TO DO CREATIVE WORKS</p>
+                    </li>
+                    <li class="carousel-item">
+                        <h3>WE THINK CREATIVE BE CREATIVE</h3>
+                        <p>LIKE TO DO CREATIVE WORKS</p>
+                    </li>
+                    <li class="carousel-item">
+                        <h3>WE THINK CREATIVE BE CREATIVE</h3>
+                        <p>LIKE TO DO CREATIVE WORKS</p>
+                    </li>
+                </ul>
+                <a class="carousel-control-prev" href="#header-slider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#header-slider" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="scroll-down icon-mouse" onClick="window.scrollTo(0, document.body.scrollHeight)">
+                <span>Scroll down</span>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="about-us wrapper">
+            <div class="container">
+                <div class="title">
+                    <h3>About us</h3>
+                    <hr>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="description col-lg-6 col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="row items-block justify-content-sm-center">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="item icon-item-1">
+                            <span class="item-title">Creative design</span>
+                            <span class="item-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="item icon-item-2">
+                            <span class="item-title">Unique portfolio</span>
+                            <span class="item-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="item icon-item-3">
+                            <span class="item-title">Infinite updates</span>
+                            <span class="item-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="video-block">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="left-side justify-content-md-center">
+                        <h3 class="col-name">WATCH BEHIND THE SCENE</h3>
+                        <p>Lorem ipsum dolo the lorem r sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                        <div class="btn btn-with-border-bottom">PLAY NOW</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="player-video">
+                        <video id="video" class="video-js" controls preload="auto" poster="img/poster.png" data-setup="{}">
+                            <source src="video/movie.mp4" type='video/mp4'>
+                            <p class="vjs-no-js">
+                                To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                            </p>
+                        </video>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="portfolio wrapper">
+            <div class="container-fluid">
+                <div class="title">
+                    <h3>Our works</h3>
+                    <hr>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="description col-lg-6 col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+            <ul id="tabsJustified" class="portfolio-tabs nav nav-tabs justify-content-sm-center">
+                <li class="nav-item">
+                    <a href="" data-target="#all-projects" data-toggle="tab" class="text-uppercase active">All projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" data-target="#photography" data-toggle="tab" class="text-uppercase">photography</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" data-target="#web-desig" data-toggle="tab" class="text-uppercase">web design</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" data-target="#branding" data-toggle="tab" class="text-uppercase">branding</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" data-target="#mobile-app" data-toggle="tab" class="text-uppercase">mobile app</a>
+                </li>
+            </ul>
+            <div id="tabsJustifiedContent" class="tab-content">
+                <div id="all-projects" class="tab-pane fade active show">
+                    <div class="custom-row">
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">  
+                        </div>
+                        <div class="custom-column d-none d-md-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-md-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-md-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-md-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-lg-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-lg-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-lg-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="photography" class="tab-pane fade">
+                    <div class="custom-row">
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-md-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-lg-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="web-desig" class="tab-pane fade">
+                    <div class="custom-row">
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-block d-md-none d-lg-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-lg-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="branding" class="tab-pane fade">
+                    <div class="custom-row">
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-md-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-lg-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="mobile-app" class="tab-pane fade">
+                    <div class="custom-row">
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-block d-md-none d-lg-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                        <div class="custom-column d-none d-lg-block">
+                            <img src="img/projects-item.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-block">
+                <div class="justify-content-sm-center d-flex">
+                    <ul class="slider">
+                        <li>
+                            <img src="img/themeforest.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/graphicriver.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/videohive.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/themeforest.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/graphicriver.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/videohive.png" alt="">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="our-team wrapper">
+            <div class="container">
+                <div class="title">
+                    <h3>Who we are</h3>
+                    <hr>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="description col-lg-6 col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="team-skills team-slider">
+                    <div class="slider-content row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="persone">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6 col-md-12">
+                                        <img src="img/photo-Here.png" class="staff-photo" alt="">
+                                        <h2 class="name">Jane&nbsp;smith</h2>
+                                        <span class="job">designer</span>
+                                        <ul class="social-links justify-content-center">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fab fa-behance"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="skills">
+                                <h3>My skills</h3>
+                                <p class="skill-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <div class="d-flex">
+                                    <ul class="skills-name">
+                                        <li>Photoshop</li>
+                                        <li>Illustrator</li>
+                                        <li>sketch</li>
+                                        <li>after&nbsp;effects</li>
+                                    </ul>
+                                    <div class="rangers">
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state photoshop"></div>
+                                            </div>
+                                            <span>88%</span>
+                                        </div>
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state illustrator"></div>
+                                            </div>
+                                            <span>92%</span>
+                                        </div>
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state sketch"></div>
+                                            </div>
+                                            <span>90%</span>
+                                        </div>
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state after-effects"></div>
+                                            </div>
+                                            <span>98%</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-content row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="persone">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6 col-md-12">
+                                        <img src="img/photo-Here.png" class="staff-photo" alt="">
+                                        <h2 class="name">Jane&nbsp;smith</h2>
+                                        <span class="job">designer</span>
+                                        <ul class="social-links justify-content-center">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fab fa-behance"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="skills">
+                                <h3>My skills</h3>
+                                <p class="skill-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <div class="d-flex">
+                                    <ul class="skills-name">
+                                        <li>Photoshop</li>
+                                        <li>Illustrator</li>
+                                        <li>sketch</li>
+                                        <li>after&nbsp;effects</li>
+                                    </ul>
+                                    <div class="rangers">
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state photoshop"></div>
+                                            </div>
+                                            <span>88%</span>
+                                        </div>
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state illustrator"></div>
+                                            </div>
+                                            <span>92%</span>
+                                        </div>
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state sketch"></div>
+                                            </div>
+                                            <span>90%</span>
+                                        </div>
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state after-effects"></div>
+                                            </div>
+                                            <span>98%</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-content row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="persone">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6 col-md-12">
+                                        <img src="img/photo-Here.png" class="staff-photo" alt="">
+                                        <h2 class="name">Jane&nbsp;smith</h2>
+                                        <span class="job">designer</span>
+                                        <ul class="social-links justify-content-center">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fab fa-behance"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="skills">
+                                <h3>My skills</h3>
+                                <p class="skill-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <div class="d-flex">
+                                    <ul class="skills-name">
+                                        <li>Photoshop</li>
+                                        <li>Illustrator</li>
+                                        <li>sketch</li>
+                                        <li>after&nbsp;effects</li>
+                                    </ul>
+                                    <div class="rangers">
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state photoshop"></div>
+                                            </div>
+                                            <span>88%</span>
+                                        </div>
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state illustrator"></div>
+                                            </div>
+                                            <span>92%</span>
+                                        </div>
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state sketch"></div>
+                                            </div>
+                                            <span>90%</span>
+                                        </div>
+                                        <div class="range-with-per d-flex">
+                                            <div class="single-range">
+                                                <div class="skill-state after-effects"></div>
+                                            </div>
+                                            <span>98%</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="features dark-section">
+            <div class="container">
+                <h3>Some features</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 features-item icon-features-item-1 d-flex">
+                        <span>Shortcodes</span>
+                        <span>46</span>
+                    </div>
+                    <div class="col-md-3 col-sm-6 features-item icon-features-item-2 d-flex">
+                        <span>Integrated Plugins</span>
+                        <span>128</span>
+                    </div>
+                    <div class="col-md-3 col-sm-6 features-item icon-features-item-3 d-flex">
+                        <span>Creative Products</span>
+                        <span>450</span>
+                    </div>
+                    <div class="col-md-3 col-sm-6 features-item icon-features-item-4 d-flex">
+                        <span>Client Worldwide</span>
+                        <span>100+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-posts wrapper">
+            <div class="container">
+                <div class="title">
+                    <h3>Blog posts</h3>
+                    <hr>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="description col-lg-6 col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="post">
+                            <div class="post-photo">
+                                <img src="img/post-1.jpg" alt="">
+                                <div class="hover-img">
+                                    <a class="link d-flex align-items-center"><i class="fas fa-link"></i></a>
+                                    <a class="eye d-flex align-items-center"><i class="fas fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="post-content d-flex justify-content-sm-between">
+                                <h4>Creat Creative &amp; Clean</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="post-footer d-flex justify-content-sm-between">
+                                    <div class="date"><i class="far fa-clock"></i><span>25 Jan 2015</span></div>
+                                    <div class="social-request"><i class="far fa-thumbs-up"></i> <span class="amount-likes">25</span><i class="far fa-comments"></i><span class="amount-comments">11</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="post">
+                            <div class="post-photo">
+                                <img src="img/post-1.jpg" alt="">
+                                <div class="hover-img">
+                                    <a class="link d-flex justify-content-md-center align-items-center"><i class="fas fa-link"></i></a>
+                                    <a class="eye d-flex justify-content-md-center align-items-center"><i class="fas fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="post-content d-flex justify-content-sm-between">
+                                <h4>Make A Sleek Break</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="post-footer d-flex justify-content-sm-between">
+                                    <div class="date"><i class="far fa-clock"></i><span>25 Jan 2015</span></div>
+                                    <div class="social-request"><i class="far fa-thumbs-up"></i> <span class="amount-likes">25</span><i class="far fa-comments"></i><span class="amount-comments">11</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-none d-md-block">
+                        <div class="post">
+                            <div class="post-photo">
+                                <img src="img/post-1.jpg" alt="">
+                                <div class="hover-img">
+                                    <a class="link d-flex align-items-center"><i class="fas fa-link"></i></a>
+                                    <a class="eye d-flex align-items-center"><i class="fas fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="post-content d-flex justify-content-sm-between">
+                                <h4>Creative Manipulations</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="post-footer d-flex justify-content-md-between">
+                                    <div class="date"><i class="far fa-clock"></i><span>25 Jan 2015</span></div>
+                                    <div class="social-request"><i class="far fa-thumbs-up"></i> <span class="amount-likes">25</span><i class="far fa-comments"></i><span class="amount-comments">11</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="choose-plan dark-section">
+            <div class="container">
+                <h3>Choose plan</h3>
+                <hr>
+                <div class="options-block d-flex justify-content-md-center">
+                    <div class="plan-item">
+                        <div class="name-price d-flex justify-content-md-center">
+                            <span>Basic</span>
+                            <span class="value">Free</span>
+                        </div>
+                        <ul class="complectation-info">
+                            <li><span class="number">20 </span>Pages</li>
+                            <li><span class="number">2 </span>GB Storage</li>
+                            <li><span class="number">150 </span>Members</li>
+                            <li><span class="number">2 </span>Contribution</li>
+                        </ul>
+                        <div class="btn btn-with-radius">Purchase</div>
+                    </div>
+                    <div class="plan-item">
+                        <div class="name-price d-flex justify-content-md-center">
+                            <span>Standart</span>
+                            <span class="value"><span class="currency">$</span>24.00</span>
+                        </div>
+                        <ul class="complectation-info">
+                            <li><span class="number">25 </span>Pages</li>
+                            <li><span class="number">10 </span>GB Storage</li>
+                            <li><span class="number">300 </span>Members</li>
+                            <li><span class="number">5 </span>Contribution</li>
+                        </ul>
+                        <div class="btn btn-with-radius">Purchase</div>
+                    </div>
+                    <div class="plan-item">
+                        <div class="name-price d-flex justify-content-md-center">
+                            <span>Premium</span>
+                            <span class="value"><span class="currency">$</span>40.00</span>
+                        </div>
+                        <ul class="complectation-info">
+                            <li><span class="number">30 </span>Pages</li>
+                            <li><span class="number">20 </span>GB Storage</li>
+                            <li><span class="number">500 </span>Members</li>
+                            <li><span class="number">10 </span>Contribution</li>
+                        </ul>
+                        <div class="btn btn-with-radius">Purchase</div>
+                    </div>
+                    <div class="plan-item">
+                        <div class="name-price d-flex justify-content-md-center">
+                            <span>Professional</span>
+                            <span class="value"><span class="currency">$</span>75.00</span>
+                        </div>
+                        <ul class="complectation-info">
+                            <li><span class="number">40 </span>Pages</li>
+                            <li><span class="number">40 </span>GB Storage</li>
+                            <li><span class="number">1000 </span>Members</li>
+                            <li><span class="number">20 </span>Contribution</li>
+                        </ul>
+                        <div class="btn btn-with-radius">Purchase</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="get-in-touch wrapper">
+            <div class="container">
+                <div class="title">
+                    <h3>Get in touch</h3>
+                    <hr>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="description col-lg-6 col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>Name </span>
+                        <input type="text" class="inputs" name="user-name">
+                    </div>
+                    <div class="col-md-6">
+                        <span>Mail </span>
+                        <input type="text" class="inputs" name="user-mail">
+                    </div>
+                    <div class="col-md-12">
+                        <span>Message </span>
+                        <textarea id="" cols="50" rows="7" class="inputs" name="user-message"></textarea>
+                    </div>
+                    <div class="btn">Send message</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="location d-flex justify-content-sm-center">
+            <h3>Locate on map</h3> 
+            <span><i class="fas fa-angle-down"></i></span>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5892.382398897939!2d30.505832383616998!3d50.38694213021978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8b98adbef57%3A0xbf5e90d9f4e54572!2z0YPQuy4g0JPQtdC90LXRgNCw0LvQsCDQoNC-0LTQuNC80YbQtdCy0LAsIDMsINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1519554640652" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>        
+        </div>
+        <div class="bottom-footer dark-section">
+            <div class="container">
+                <div class="footer-content">
+                    <img src="img/logo-vertical.png" alt="">
+                    <span>Make with love by creative product</span>
+                    <ul class="social-links d-flex justify-content-center">
+                        <li>
+                            <a href="">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fontawesome -->
+    <script src="js/fontawesome-all.min.js "></script>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Video -->
+    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+
+    <!-- Bx Slider -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script src="js/common.js"></script>
+</body>
+
+</html>

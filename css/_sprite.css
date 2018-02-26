@@ -1,0 +1,153 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-control-next-small {
+  background-image: url(../img/sprite.png);
+  background-position: -76px -113px;
+  width: 16px;
+  height: 27px;
+}
+.icon-control-next-sm-hov {
+  background-image: url(../img/sprite.png);
+  background-position: -182px -82px;
+  width: 16px;
+  height: 27px;
+}
+.icon-control-next {
+  background: url(../img/sprite.png);
+  background-position: -182px 0px;
+  width: 26px;
+  height: 45px;
+}
+.icon-control-next-hov {
+  background-image: url(sprite.png);
+  background-position: -156px -90px;
+  width: 26px;
+  height: 45px;
+}
+.icon-control-prev-small {
+  background-image: url(../img/sprite.png);
+  background-position: -182px -109px;
+  width: 16px;
+  height: 27px;
+}
+.icon-control-prev-sm-hov {
+  background-image: url(sprite.png);
+  background-position: -60px -113px;
+  width: 16px;
+  height: 27px;
+}
+.icon-control-prev {
+  background: url(../img/sprite.png);
+  background-position: -156px 0px;
+  width: 26px;
+  height: 45px;
+}
+.icon-control-prev-hov {
+  background-image: url(../img/sprite.png);
+  background-position: -156px -45px;
+  width: 26px;
+  height: 45px;
+}
+.icon-features-item-1::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../img/sprite.png);
+  background-position: -56px 0px;
+  width: 52px;
+  height: 47px;
+}
+.icon-features-item-2::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 56px;
+  height: 56px;
+}
+.icon-features-item-3::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../img/sprite.png);
+  background-position: -56px -47px;
+  width: 48px;
+  height: 49px;
+}
+.icon-features-item-4::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../img/sprite.png);
+  background-position: -108px -44px;
+  width: 36px;
+  height: 56px;
+}
+.icon-item-1::before {
+  content: "";
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../img/sprite.png);
+  background-position: 0px -56px;
+  width: 50px;
+  height: 57px;
+}
+.icon-item-2::before {
+  content: "";
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../img/sprite.png);
+  background-position: -108px 0px;
+  width: 48px;
+  height: 44px;
+}
+.icon-item-3::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../img/sprite.png);
+  background-position: 0px -113px;
+  width: 60px;
+  height: 27px;
+}
+.icon-mouse::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  background-image: url(../img/sprite.png);
+  background-position: -182px -45px;
+  width: 18px;
+  height: 37px;
+  
+}
