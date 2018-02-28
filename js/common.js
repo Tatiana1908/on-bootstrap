@@ -2,8 +2,15 @@
 'use strict'
 
 ;(function(){
-    
-    // burger menu start    
+    // preloader 
+    setTimeout(function(){
+        let preloader = document.querySelector('.preloader')
+        if (!preloader.classList.contains('done')){
+            preloader.classList.add('done')
+        };
+    }, 1000);
+
+    // burger menu 
     
     let burger = document.querySelector('.menu-btn'),
         menu = document.querySelector('ul.nav');
@@ -19,7 +26,26 @@
             }
         } 
 
+    // Menu 
+ 
+    $("#menu").on("click","a", function (event) {
+
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+        
+            top = $(id).offset().top;
+        
+        $('html, body').animate({scrollTop: top}, 1500);
+
+    });
+    //scroll down
     
+    $(".scroll-down").on("click", function () {
+    
+        $('html, body').animate({ scrollTop: $(document).height()-$(window).height()}, 1500); 
+        
+    });
+        
     // Tabs
     $(".nav-tabs a").click(function(){
         $(this).tab('show');
@@ -69,7 +95,8 @@
 }());
 
 // scroll to down
-function toBottom() {
-    window.scrollTo(0, document.body.scrollHeight);
-}
+// function toBottom() {
+//     setTimeout(()=>body.scrollTop = body.scrollHeight,1000);
+//     // window.scrollTo(0, document.body.scrollHeight);
+// }
 
